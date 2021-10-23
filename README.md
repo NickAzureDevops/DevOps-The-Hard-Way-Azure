@@ -1,4 +1,4 @@
-# DevOps-The-Hard-Way-Azure
+# DevOps-The-Hard-Way-Azure LAB 
 
 In this lab I will be setting up a real world environemnt using Devops technologies and practices for deploying application in Microsoft Azure. 
 
