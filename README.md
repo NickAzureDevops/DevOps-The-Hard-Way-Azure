@@ -4,4 +4,4 @@ In this lab I will be setting up a real world environemnt using Devops technolog
 
 The solution is to deploy the Uber API for the sign-up page. Currently this solution is sitting on a bunch of baremetal, but it's time to sprinkle a little DevOps on it.
 
-Thanks for thomast1906 for creating this amazing guide :) 
+Thank you thomast1906 for creating this amazing guide :) 
