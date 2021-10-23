@@ -29,4 +29,4 @@ I did this by doing the following
 
 4) Run the terraform files in the ACR folder as it will use azurerm_resource_group to create a new resource group from the selected region and a container registry by creating a new ACR. 
 
-5) 
+5) Create the Virtual Network by running the terraform files located in ACR/VNET folder 
