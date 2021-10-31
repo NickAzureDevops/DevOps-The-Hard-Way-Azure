@@ -29,7 +29,7 @@ Prerequisites
 
 3) Create Azure AD Group  and AZ login details for AKS Admins by running the create azure terraform-storage.sh in th azure folder which will create the cluster 
 
-Terraform 
+Terraform - create all of the Azure cloud services you'll need from an environment
 
 4) Run the terraform files in the Terraform-Azure/ACR folder as it will use azurerm_resource_group to create a new resource group from the selected region and a container registry by creating a new ACR. 
 
@@ -39,5 +39,7 @@ Terraform
 
 7) Create AKS cluster and IAM Role/Policy- To do this run the terraform files under terraform/Azure/ACR folder and this will create the cluster and the role assignment 
 
-Docker 
+Docker - create a Docker image from the app that the organization is running on-prem (the uber app), containerize it, and store the container inside of a container repository
+
+
 
