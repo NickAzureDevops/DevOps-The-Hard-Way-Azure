@@ -48,5 +48,3 @@ Terraform - create all of the Azure cloud services you'll need from an environme
 Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository
 
 8) Create a docker image by running the command docker build -t uberapp . in the docker folder. This will create a docker image locally on your docker desktop. 
-
-9) 
