@@ -37,7 +37,7 @@ Prerequisites
 
 Terraform - create all of the Azure cloud services you'll need from an environment
 
-4) Run the terraform files in the Terraform-Azure/ACR folder as it will use azurerm_resource_group to create a new resource group from the selected region and a container registry by creating a new ACR. 
+4) Run the terraform files in the Terraform-Azure/ACR folder as it will use azurerm_resource_group to create a new resource group from the selected region and a container registry by creating a new ACR. To run the terraform files you will need to run Terraform init, then Terraform plan and Terraform apply to push the configuration. 
 
 5) Create the Virtual Network by running the terraform files located in Terraform-Azure ACR/VNET folder 
 
