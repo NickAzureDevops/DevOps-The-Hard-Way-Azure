@@ -23,6 +23,12 @@ I did this by doing the following
 
 Prerequisites
 
+- Azure Account 
+- Azure Cli 
+- Terraform 
+- Docker Desk 
+- GitHub (store the source code)
+
 1) Start Studio code and create a project called Devops-The-Hard-Way-Azure and initialize the folder by running git init command and publish the project to Github Repo. You also need to download the Github Extension in VBS before you publish it.  
 
 2) Run the create-terraform-storage.sh in the azure folder to Create Storage Account and Resource Group for Terraform State file. I did this by running the script in bash cloud shell in visual studio code.
@@ -39,7 +45,8 @@ Terraform - create all of the Azure cloud services you'll need from an environme
 
 7) Create AKS cluster and IAM Role/Policy- To do this run the terraform files under terraform/Azure/ACR folder and this will create the cluster and the role assignment 
 
-Docker - create a Docker image from the app that the organization is running on-prem (the uber app), containerize it, and store the container inside of a container repository
+Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository
 
+8) Create a docker image by running the command docker build -t uberapp . in the docker folder. This will create a docker image locally on your docker desktop. 
 
-
+9) 
