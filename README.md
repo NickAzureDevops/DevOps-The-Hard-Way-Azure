@@ -32,3 +32,5 @@ I did this by doing the following
 5) Create the Virtual Network by running the terraform files located in Terraform-Azure ACR/VNET folder 
 
 6) Next ran the azurerm_log_analytics_workspace Terraform resource to create a Log Analytics workspace and  the Log Analytics solution ContainerInsights.
+
+7) Create AKS cluster and IAM Role/Policy- To do this run the terraform files under terraform/Azure/ACR folder and this will create the cluster and the role assignment 
