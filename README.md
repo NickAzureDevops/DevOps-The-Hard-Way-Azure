@@ -8,16 +8,7 @@ The solution is to deploy the Uber API for the sign-up page. Currently this solu
 
 Thank you thomast1906 for creating this amazing guide :) 
 
-Technologies used 
-
-- Azure 
-- GitHub
-- Python
-- Terraform
-- Dockter 
-- Kubernetes
-- CI/CD
-- Automated Testing 
+Technologies consists: Azure, GitHub, Python, Terraform, Dockter , Kubernetes, CI/CD and Automated Testing 
 
 I did this by doing the following 
 
