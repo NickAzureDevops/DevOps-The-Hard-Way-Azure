@@ -51,6 +51,9 @@ Docker - create a Docker image from the app, containerise it, and store the cont
 
 [](images/DockerRunning.png)
 
+
+![](images/uber.png)
+
 9) Push Docker image to ACR - In your local machine login to CLI by typing az login and athenicate to your azure account and type  az acr login --name devopsthehardway202acr to login to your ACR. When your login tag the Docker image by running the docker tag uberapp devopsthehardway202acr.azurecr.io/uberapp:v1 before pushing it to your ACR. You can push it by running this docker push docker push devopsthehardway202acr.azurecr.io/uberapp:v1.  
 
 Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app.
