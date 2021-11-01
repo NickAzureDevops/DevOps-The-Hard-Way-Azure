@@ -55,3 +55,5 @@ Docker - create a Docker image from the app, containerise it, and store the cont
 
 Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app.
 
+10) Login to AKS - To login to the Kubernetes you need to run az aks get-credentials --resource-group devopsthehardway-rg --name devopsthehardwayaks. This will create a kube/config file locall for you.  After you have sucessfully login to your AKS, you can view the nodes have running the kubectl get node. 
+
