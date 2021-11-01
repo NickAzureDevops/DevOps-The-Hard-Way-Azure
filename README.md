@@ -24,16 +24,4 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 5) Docker - [create a Docker image from the app, containerise it, and store the container inside of a container repository](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
 
 
-
-Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app.
-
-10) Login to AKS - To login to the Kubernetes you need to run az aks get-credentials --resource-group devopsthehardway-rg --name devopsthehardwayaks. This will create a kube/config file locall for you.  After you have sucessfully login to your AKS, you can view the nodes have running the kubectl get node. 
-
-11) Create Kubernetes Manifest - To create the manifest and deploy it to AKS you will need to go to the Kubernetes folder and go to the deployment.yml and edit line with your ACR container registry name.  The Kubernetes manifest will consist of the following components:
-
-The deployment
-The service
-The Application Gateway Ingress
-The deployment is what gets the application running in Kubernetes
-
-This service is what exposes the Kubernetes application so you can reach the frontend from a load balancer hostname or IP.
+6) Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app.[Instruction](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
