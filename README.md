@@ -21,7 +21,7 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 4) Terraform - [Create all of the Azure cloud services you'll need for the Uber app ](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terrform-Azure/Readme.md)
 
 
-5) Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository [Step5] (https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
+5) Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository [Step 5](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
 
 
-6) Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app.[Step6] (https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
+6) Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app.[Step6](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
