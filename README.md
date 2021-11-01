@@ -18,7 +18,7 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 
 3) Create Azure AD Group  and AZ login details for AKS Admins by running the create azure terraform-storage.sh in th azure folder which will create the cluster 
 
-4) - Terraform - create all of the Azure cloud services you'll need from an environment (https://github.com/thomast1906/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/1-Create-ACR.md)
+4) Terraform - create all of the Azure cloud services you'll need from an environment https://github.com/thomast1906/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/1-Create-ACR.md
 
 
 Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository
