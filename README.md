@@ -18,15 +18,7 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 
 3) Create Azure AD Group  and AZ login details for AKS Admins by running the create azure terraform-storage.sh in th azure folder which will create the cluster 
 
-Terraform - create all of the Azure cloud services you'll need from an environment
-
-4) Run the terraform files in the Terraform-Azure/ACR folder as it will use azurerm_resource_group to create a new resource group from the selected region and a container registry by creating a new ACR. To run the terraform files you will need to run Terraform init, then Terraform plan and Terraform apply to push the configuration. 
-
-5) Create the Virtual Network by running the terraform files located in Terraform-Azure ACR/VNET folder 
-
-6) Next ran the azurerm_log_analytics_workspace Terraform resource to create a Log Analytics workspace and  the Log Analytics solution ContainerInsights.
-
-7) Create AKS cluster and IAM Role/Policy- To do this run the terraform files under terraform/Azure/ACR folder and this will create the cluster and the role assignment 
+Terraform - create all of the Azure cloud services you'll need from an environment (https://github.com/thomast1906/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/1-Create-ACR.md)
 
 Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository
 
