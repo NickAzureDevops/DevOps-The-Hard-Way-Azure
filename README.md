@@ -18,16 +18,12 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 
 3) Create Azure AD Group  and AZ login details for AKS Admins by running the create azure terraform-storage.sh in th azure folder which will create the cluster 
 
-4) Terraform - [Create all of the Azure cloud services you'll need from an environment](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terrform-Azure/Readme.md)
+4) Terraform - [Create all of the Azure cloud services you'll need for the Uber app ](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terrform-Azure/Readme.md)
 
 
-Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository
+5) Docker - [create a Docker image from the app, containerise it, and store the container inside of a container repository](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
 
-8) Create a docker image by running the command docker build -t uberapp . in the docker folder. This will create a docker image locally on your docker desktop. Once created, to check the image has been creted running the docker image ls. Run docker run -tid uberapp command in order to run the docker container locally and to view it has been create type docker container ls. 
 
-  ![](images/DockerRunning.png)
-
-9) Push Docker image to ACR - In your local machine login to CLI by typing az login and athenicate to your azure account and type  az acr login --name devopsthehardway202acr to login to your ACR. When your login tag the Docker image by running the docker tag uberapp devopsthehardway202acr.azurecr.io/uberapp:v1 before pushing it to your ACR. You can push it by running this docker push docker push devopsthehardway202acr.azurecr.io/uberapp:v1.  
 
 Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app.
 
