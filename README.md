@@ -20,8 +20,8 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 
 4) Terraform - [Create all of the Azure cloud services you'll need from an environment] (https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terrform-Azure/Readme.md)
 
+    - [Create ACR](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/1-Create-ACR.md)
 
-[Using ARM Templates to Deploy VMs]
 
 Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository
 
