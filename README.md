@@ -21,13 +21,7 @@ Technologies used
 
 I did this by doing the following 
 
-Prerequisites
-
-- Azure Account 
-- Azure Cli 
-- Terraform 
-- Docker Desk 
-- GitHub (store the source code)
+Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (store the source code)
 
 1) Start Studio code and create a project called Devops-The-Hard-Way-Azure and initialize the folder by running git init command and publish the project to Github Repo. You also need to download the Github Extension in VBS before you publish it.  
 
