@@ -18,10 +18,16 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 
 3) Create Azure AD Group  and AZ login details for AKS Admins by running the create azure terraform-storage.sh in th azure folder which will create the cluster 
 
-4) Terraform - [Create all of the Azure cloud services you'll need for the Uber app ](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terrform-Azure/Readme.md)
+4) Terraform - Create all of the Azure cloud services you'll need for the Uber app 
+
+[Set up terraform](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terrform-Azure/Readme.md)
 
 
-5) Docker - [create a Docker image from the app, containerise it, and store the container inside of a container repository](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
+5) Docker - create a Docker image from the app, containerise it, and store the container inside of a container repository
+
+[Deploy Doctoer insde container](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
 
 
-6) Kubernetes - [Connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Kubernetes/Readme.md)
+6) Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app
+
+[Set up Kubernetes](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
