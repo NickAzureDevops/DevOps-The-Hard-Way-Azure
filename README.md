@@ -4,9 +4,7 @@ In this lab I will be setting up a real world environemnt using Devops technolog
 
 The solution is to deploy the Uber API for the sign-up page. Currently this solution is sitting on a bunch of baremetal, but it's time to sprinkle a little DevOps on it.
 
-![](images/uber.png)
-
-Thank you thomast1906 for creating this amazing guide :) 
+![](images/uber.png) Thank you thomast1906 for creating this amazing guide :) 
 
 Technologies consists: Azure, GitHub, Python, Terraform, Dockter , Kubernetes, CI/CD and Automated Testing 
 
@@ -50,6 +48,3 @@ The Application Gateway Ingress
 The deployment is what gets the application running in Kubernetes
 
 This service is what exposes the Kubernetes application so you can reach the frontend from a load balancer hostname or IP.
-
-
-
