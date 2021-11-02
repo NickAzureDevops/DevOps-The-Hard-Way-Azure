@@ -30,4 +30,4 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 
 6) Kubernetes - This section will connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app
 
--[Set up Kubernetes](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
+- [Set up Kubernetes](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Docker/Readme.md)
