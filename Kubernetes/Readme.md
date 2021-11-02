@@ -12,3 +12,8 @@ The Application Gateway Ingress
 The deployment is what gets the application running in Kubernetes
 
 This service is what exposes the Kubernetes application so you can reach the frontend from a load balancer hostname or IP.
+
+Deploy The Uber App
+
+Once the AKS cluster is built and the Kubernetes manifest is ready, you will be next deploying the manifest. You can do this by running the kubectl create -f deployment.yml and once it has be created run the kubectl get deployments to view the deployment. 
+
