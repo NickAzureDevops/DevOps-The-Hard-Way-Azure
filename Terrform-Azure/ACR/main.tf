@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "devopshardwayazure-rg"
-    storage_account_name = "devopazurest"
+    resource_group_name  = "devopstamops-rg"
+    storage_account_name = "devopstamopssa1"
     container_name       = "tfstate"
     key                  = "acr-terraform.tfstate"
   }
@@ -18,7 +18,7 @@ resource "azurerm_resource_group" "acr_resource_group" {
 }
 
 resource "azurerm_container_registry" "acr" {
-  name                = "${var.name}202acr"
+  name                = "${var.name}12acr"
   resource_group_name = azurerm_resource_group.acr_resource_group.name
   location            = azurerm_resource_group.acr_resource_group.location
   sku                 = "Standard"

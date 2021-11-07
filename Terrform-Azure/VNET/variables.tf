@@ -3,6 +3,7 @@ variable "name" {
   default     = "devopsthehardway"
   description = "Name for resources"
 }
+
 variable "location" {
   type        = string
   default     = "uksouth"
