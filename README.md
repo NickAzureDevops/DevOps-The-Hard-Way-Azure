@@ -6,7 +6,7 @@ The solution is to deploy the Uber API for the sign-up page. Currently this solu
 
 ![](images/uber.png) Thank you thomast1906 for creating this amazing guide :) 
 
-Technologies consists: Azure, GitHub, Python, Terraform, Dockter , Kubernetes, CI/CD and Automated Testing 
+Technologies consists: Azure, GitHub, Python, Terraform, Docker , Kubernetes, CI/CD and Automated Testing 
 
 I did this by doing the following 
 
