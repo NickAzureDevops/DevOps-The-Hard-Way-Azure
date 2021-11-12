@@ -16,7 +16,7 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 
 2) Run the create-terraform-storage.sh in the azure folder to Create Storage Account and Resource Group for Terraform State file. I did this by running the script in bash cloud shell in visual studio code.
 
-3) Create Azure AD Group  and AZ login details for AKS Admins by running the create azure terraform-storage.sh in th azure folder which will create the cluster 
+3) Create Azure AD Group  and AZ login details for AKS Admins by running the create azure-ad-group.sh in th azure folder which will create the cluster 
 
 4) Terraform - Create all of the Azure cloud services you'll need for the Uber app 
 
