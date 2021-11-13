@@ -38,4 +38,4 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 
 8) Run CI/CD - This section will create an Ci/CD using Github action 
 
-[CI/CD using Github Actions](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/Run-CI-CD-Readme.md)
+  - [CI/CD using Github Actions](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/Run-CI-CD-Readme.md)
