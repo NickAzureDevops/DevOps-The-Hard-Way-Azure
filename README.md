@@ -35,3 +35,6 @@ Prerequisites- Azure Account, Azure Cli, Terraform, Docker Desktop  and GitHub (
 7) Automated Test- This automated test ensures all the terraform code is performing as it should be from a policy, security, and static code analysis point of view. 
 
   - [Install And Run Checkov](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terraform-Static-Code-Analysis/Readme.md)
+
+8) [Create CI/CD using Github Actions](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/Run-CI-CD-Readme.md)
+
