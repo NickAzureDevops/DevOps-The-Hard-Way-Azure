@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
     resource_group_name  = "devopstamops-rg"
-    storage_account_name = "devopstamopssa1"
+    storage_account_name = "devopstamopssa"
     container_name       = "tfstate"
     key                  = "vnet-terraform.tfstate"
   }
