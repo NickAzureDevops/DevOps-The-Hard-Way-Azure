@@ -1,7 +1,6 @@
 terraform {
   backend "azurerm" {
     resource_group_name  = "devopstamops-rg"
-    subscription_id      = "f55aba78-6a4c-4da4-84be-d4037def0d50"
     storage_account_name = "devopstamopssa"
     container_name       = "tfstate"
     key                  = "aks-terraform.tfstate"
@@ -110,7 +109,7 @@ resource "azurerm_role_assignment" "node_infrastructure_update_scale_set" {
 }
 
 data "azurerm_container_registry" "example" {
-  name                = "${var.name}12acr"
+  name                = "${var.name}1acr"
   resource_group_name = data.azurerm_resource_group.resource_group.name
 }
 

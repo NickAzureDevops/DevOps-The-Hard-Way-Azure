@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: uber-ui
-        image: devopsthehardway12acr.azurecr.io/uberapp:v1
+        image: devopsthehardway1acr.azurecr.io/uberapp:v1
         ports:
         - containerPort: 5000
 ---
