@@ -1,3 +1,5 @@
+[![CI](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/actions/workflows/main.yml/badge.svg)](https://github.com/nicholaschangIT/DevOps-The-Hard-Way-Azure/actions/workflows/main.yml)
+
 # DevOps-The-Hard-Way-Azure LAB 
 
 In this lab I will be setting up a real world environemnt using Devops technologies and practices for deploying application in Microsoft Azure. 
