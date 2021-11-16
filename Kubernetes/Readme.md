@@ -11,7 +11,7 @@ The service
 The Application Gateway Ingress
 The deployment is what gets the application running in Kubernetes
 
-This service is what exposes the Kubernetes application so you can reach the frontend from a load balancer hostname or IP.
+This service is what exposes the Kubernetes application so you can reach the frontend from a load balancer hostname or IP address
 
 Deploy The Uber App
 

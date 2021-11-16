@@ -2,7 +2,7 @@ CI/CD using Github Actions
 
 - create service principle to authenicate Github to Azure 
 
-az ad sp create-for-rbac --name devopsthehardway - Gave this owner access and it is working 
+az ad sp create-for-rbac --name devopsthehardway - Gave this owner permission to the subscription 
 
 You'll be adding 4 screts into the GitHub repository. These four secrets will allow you to connect to Azure from GitHub Actions.
 
